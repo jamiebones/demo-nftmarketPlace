@@ -1,0 +1,25 @@
+{
+  "network": "bscTestnet",
+  "chainId": 97,
+  "contracts": {
+    "roosterNFT": {
+      "address": "0xc279f7E8d7e9D233E2F05f898BA9f7883BA80dd8",
+      "constructorArgs": [
+        "Rooster Fighters",
+        "ROOSTER",
+        "https://your-app.vercel.app/api/metadata/"
+      ]
+    },
+    "marketplace": {
+      "address": "0x327940881517eEA1586fa7943C8F6956ad08FB69",
+      "constructorArgs": [
+        "0x0A0Cfbf38Ca51F39bD6947a0708E1965E6E0f6B8"
+      ]
+    }
+  },
+  "deployer": "0x0A0Cfbf38Ca51F39bD6947a0708E1965E6E0f6B8",
+  "feeRecipient": "0x0A0Cfbf38Ca51F39bD6947a0708E1965E6E0f6B8",
+  "baseTokenURI": "https://your-app.vercel.app/api/metadata/",
+  "timestamp": "2026-02-03T14:08:15.858Z",
+  "blockNumber": 88218987
+}

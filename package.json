@@ -1,0 +1,15 @@
+{
+    "name": "rooster-nft-marketplace",
+    "version": "1.0.0",
+    "description": "NFT Marketplace for Rooster Collection",
+    "private": true,
+    "workspaces": [
+        "contracts",
+        "frontend"
+    ],
+    "scripts": {
+        "contracts": "cd contracts && npm run compile",
+        "frontend": "cd frontend && npm run dev",
+        "deploy": "cd contracts && npm run deploy:testnet"
+    }
+}

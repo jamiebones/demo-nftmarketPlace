@@ -1,15 +1,33 @@
 {
-    "name": "rooster-nft-marketplace",
-    "version": "1.0.0",
-    "description": "NFT Marketplace for Rooster Collection",
+    "name": "rooster-nft-marketplace-frontend",
+    "version": "0.1.0",
     "private": true,
-    "workspaces": [
-        "contracts",
-        "frontend"
-    ],
     "scripts": {
-        "contracts": "cd contracts && npm run compile",
-        "frontend": "cd frontend && npm run dev",
-        "deploy": "cd contracts && npm run deploy:testnet"
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint"
+    },
+    "dependencies": {
+        "@rainbow-me/rainbowkit": "^2.2.1",
+        "ethers": "^6.13.5",
+        "next": "16.1.6",
+        "react": "^19.0.0",
+        "react-dom": "^19.0.0",
+        "viem": "^2.21.58",
+        "wagmi": "^2.13.9"
+    },
+    "devDependencies": {
+        "@eslint/eslintrc": "^3",
+        "@tailwindcss/postcss": "^4.1.18",
+        "@types/node": "^22",
+        "@types/react": "^19",
+        "@types/react-dom": "^19",
+        "autoprefixer": "^10.4.24",
+        "eslint": "^9",
+        "eslint-config-next": "16.1.6",
+        "postcss": "^8",
+        "tailwindcss": "^3.4.19",
+        "typescript": "^5"
     }
 }
